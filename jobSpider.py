@@ -149,7 +149,6 @@ def startSpider():
     dealOneCity(763)  # 获取广州招聘信息
     dealOneCity(765)  # 获取深圳招聘信息
     dealOneCity(801)  # 获取成都招聘信息
-    # print('成功爬取\n')
     t.insert("end", '成功爬取\n')
 
 
