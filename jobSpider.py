@@ -1,7 +1,7 @@
 """
 智联招聘有js动态渲染等方式生成的源代码，如果仅用普通的请求方式如requests来获取网页信息则只能获取网站原始的静态源码而不能
 获取到动态渲染之后的新内容，我们的解析目标就是这部分动态渲染的新内容，所以不能用一般的请求方式,本程序使用selenium库和
-FirefoxDriver来模拟用户手动点击进入网页，并获取包括动态内容在内的全部源码，然后用BeautifulSoup解析,最后将结果存入本地数据库
+GeckoxDriver来模拟用户手动点击进入网页，并获取包括动态内容在内的全部源码，然后用BeautifulSoup解析,最后将结果存入本地数据库
 """
 from selenium import webdriver
 from bs4 import BeautifulSoup
